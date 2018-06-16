@@ -6,3 +6,9 @@ variable "vpc_name" {
   
 }
 
+variable "tenancy" {
+    description = "Tenancy details"
+  
+}
+
+

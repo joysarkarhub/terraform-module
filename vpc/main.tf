@@ -4,5 +4,5 @@ resource "aws_vpc" "main" {
 }
 
 tags {
-    Name = "${vpc_name}-VPC"
+    Name = "${var.vpc_name}-VPC"
 }
